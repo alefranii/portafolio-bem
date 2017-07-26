@@ -3,7 +3,7 @@
 .a-menu {
   display: inline-block;
   text-align: center !important;
-  padding: 20px;
+  padding: 9px;
   width: 100%;
   background-color: #F23914; }
 
@@ -11,7 +11,7 @@
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
-  padding: 15px;
+  padding: 45px;
   color: #fff; }
 
 .a-menu__ul {
@@ -22,10 +22,10 @@
 
 .a-menu__imagen {
   width: 6%;
-  border-radius: 100px;
+  border-radius: 98px;
   border: 2px solid #ddd;
   position: relative;
-  bottom: -7px; }
+  bottom: -25px; }
 
 .a-menu__ul__item {
   display: inline-block; }
@@ -38,18 +38,51 @@
     padding: 20px; }
 
 .perfil {
-  width: 50%;
-  margin: 35px auto;
-  border-radius: 10px;
-  border: 2px solid #ddd;
-  padding: 20px;
-  box-sizing: border-box; }
-  .perfil__title {
-    color: black;
-    margin: 0;
-    padding: 5px; }
-  .perfil__desc {
-    line-height: 22px; }
+  background-color: black;
+  text-align: center !important;
+  height: 500px;
+  padding: 200px; }
+
+.perfil__img {
+  width: 26%;
+  border-radius: 100px;
+  position: relative;
+  top: -84px;
+  right: -65px; }
+
+.perfil__title {
+  display: inline-block;
+  position: relative;
+  bottom: 215px;
+  left: 174px;
+  color: #c8df51; }
+
+.perfil__subtitulo {
+  display: inline-block;
+  position: relative;
+  bottom: 185px;
+  right: 24px;
+  font-weight: 300;
+  color: white; }
+
+.perfil__desc {
+  display: inline-block;
+  position: relative;
+  bottom: 209px;
+  left: 246px;
+  font-size: 14px;
+  color: white; }
+
+.perfil__boton {
+  display: inline-block;
+  position: relative;
+  top: 44px;
+  right: 320px;
+  padding: 15px;
+  background-color: #c8df51;
+  color: white;
+  border-radius: 20px;
+  border: none; }
 
 body {
   padding: 0;
