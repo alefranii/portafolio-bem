@@ -3,7 +3,7 @@
 .a-menu {
   display: inline-block;
   text-align: center !important;
-  padding: 9px;
+  padding: 1px;
   width: 100%;
   background-color: #F23914; }
 
@@ -40,14 +40,14 @@
 .perfil {
   background-color: black;
   text-align: center !important;
-  height: 500px;
+  height: 117px;
   padding: 200px; }
 
 .perfil__img {
   width: 26%;
   border-radius: 100px;
   position: relative;
-  top: -84px;
+  top: -75px;
   right: -65px; }
 
 .perfil__title {
@@ -83,6 +83,19 @@
   color: #fff;
   border-radius: 32px;
   border: none; }
+
+.perfil__social__ul {
+  display: inline-block;
+  position: relative;
+  top: -96px;
+  left: 411px;
+  color: beige; }
+
+.perfil__social__ul__li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 14px;
+  font-size: 40px; }
 
 body {
   padding: 0;
