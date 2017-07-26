@@ -96,6 +96,8 @@
   list-style: none;
   padding: 0 14px;
   font-size: 40px; }
+  .perfil__social__ul__li:hover {
+    color: #ffc99d; }
 
 body {
   padding: 0;

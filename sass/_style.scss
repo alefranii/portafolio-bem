@@ -106,4 +106,7 @@
 	list-style: none;
 	padding: 0 14px;
 	font-size: 40px;
+	&:hover{
+		color: $hover;
+	}
 }
