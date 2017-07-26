@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+/* Colors */
+.a-menu {
+  display: inline-block;
+  text-align: center !important;
+  padding: 20px;
+  width: 100%;
+  background-color: #F23914; }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  color: #fff; }
+
+.a-menu__ul {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  top: -30px; }
+
+.a-menu__imagen {
+  width: 6%;
+  border-radius: 100px;
+  border: 2px solid #ddd;
+  position: relative;
+  bottom: -7px; }
+
+.a-menu__ul__item {
+  display: inline-block; }
+
+.a-menu__item__link {
+  color: #fff; }
+  .a-menu__item__link:hover {
+    color: #ffc99d;
+    text-decoration: none;
+    padding: 20px; }
+
+.perfil {
+  width: 50%;
+  margin: 35px auto;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box; }
+  .perfil__title {
+    color: black;
+    margin: 0;
+    padding: 5px; }
+  .perfil__desc {
+    line-height: 22px; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  background-color: black; }
+
+/*# sourceMappingURL=main.css.map */

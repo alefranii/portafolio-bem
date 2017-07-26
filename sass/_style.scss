@@ -1,0 +1,61 @@
+//estilos menu
+.a-menu{
+	display: inline-block;
+	text-align: center !important;
+	padding: 20px;
+	width: 100%;
+	background-color: $fondo;
+}
+.a-menu__item{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 15px;
+	color: $white;
+}
+.a-menu__ul{
+	display: inline-block;
+	margin: 0;
+    position: relative;
+    top: -30px;
+}
+
+.a-menu__imagen{
+	width: 6%;
+	border-radius: 100px;
+	border: 2px solid #ddd;
+	position: relative;
+    bottom: -7px;
+}
+
+.a-menu__ul__item{
+	display: inline-block;
+}
+
+.a-menu__item__link{
+	color: $white;
+	&:hover{
+		color: $hover;
+		text-decoration: none;
+		padding: 20px;
+	}
+}
+
+//seccion principal
+.perfil{
+	width: 50%;
+	margin: 35px auto;
+	border-radius: 10px;
+	border: 2px solid #ddd;
+	padding: 20px;
+	box-sizing: border-box;
+	//Element
+	&__title{
+		color: black;
+		margin: 0;
+		padding: 5px;
+	}
+	&__desc{
+		line-height: 22px;
+	}
+}
