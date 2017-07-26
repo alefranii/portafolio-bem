@@ -76,12 +76,12 @@
 .perfil__boton {
   display: inline-block;
   position: relative;
-  top: 44px;
-  right: 320px;
-  padding: 15px;
+  top: -160px;
+  right: -27px;
+  padding: 17px;
   background-color: #c8df51;
-  color: white;
-  border-radius: 20px;
+  color: #fff;
+  border-radius: 32px;
   border: none; }
 
 body {
